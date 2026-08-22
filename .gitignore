@@ -1,0 +1,15 @@
+# Compiled class files
+*.class
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Executables / Binaries
+*.out
+*.exe
+*.app
+
+# IDE specific files (VS Code / CodeBlocks / etc.)
+.vscode/
+.DS_Store
