@@ -35,12 +35,16 @@ public class math_class{
 		
 		double circumference = 2 * Math.PI * radius;
 		System.out.println("Circumference: " + circumference);
-
+		System.out.printf("Circumference in printf: %.1f\n", circumference);
+		
 		double area = Math.PI * Math.pow(radius, 2);
 		System.out.println("Area: " + area);
-
+		System.out.printf("Area in printf: %.2f\n", area);
+		
 		double volume = (4.0/3.0) * Math.PI * Math.pow(radius, 3);
 		System.out.println("Volume: " + volume);
+		System.out.printf("Volume in printf: %f\n", volume);
+		
 		scanner.close();
 	}
 }
